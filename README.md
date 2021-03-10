@@ -18,7 +18,7 @@ mkdir ~/git
 cd ~/git
 git clone https://github.com/blorticus/smpp-terminal-test-harness.git
 cd smpp-teerminal-test-harness
-go get -u github.com/blorticus/smpp github.com/blorticus/tpcli
+go get -u github.com/blorticus/smpp github.com/blorticus/tpcli github.com/blorticus/smppth
 go build -o smpp-terminal-test-harness .
 ```
 
